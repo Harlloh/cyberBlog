@@ -1,6 +1,3 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Layout from "./layout";
 import {
@@ -12,6 +9,7 @@ import {
 import Home from "./Home/Home";
 import Cryptoservices from "./services/services";
 import Contact from "./contact/contact";
+import Blog from "./blog/Blog";
 
 function App() {
   const router = createBrowserRouter(
@@ -20,6 +18,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/services" element={<Cryptoservices />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
       </Route>
     )
   );

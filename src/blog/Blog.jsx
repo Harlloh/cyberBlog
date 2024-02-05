@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 import { NavLink } from "react-router-dom";
 
@@ -15,12 +15,11 @@ const Blog = () => {
         setBlogPosts(response.data.articles);
       } catch (error) {
         console.log(error);
-        // Implement your error handling logic here
       }
     };
 
     fetchBlogPosts();
-  }, []); // Empty dependency array to run the effect only once
+  }, []);
 
   return (
     <div className="container newsss">
