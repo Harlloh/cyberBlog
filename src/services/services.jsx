@@ -163,13 +163,13 @@ function Cryptoservices() {
 
   return (
     <RevealSection>
-      <section className="bg-white dark:bg-gray-900" id="service">
+      <section className="bg-white " id="service">
         <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div className="max-w-screen-md mb-8 lg:mb-16 reveal">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">
               Explore Our Comprehensive Crypto Services
             </h2>
-            <p className="text-gray-500 sm:text-xl dark:text-gray-400">
+            <p className="text-gray-500 sm:text-xl ">
               At CyberBlog, we offer a diverse range of specialized services to
               cater to your unique crypto needs. Our team is committed to
               delivering expert solutions across various aspects of the
@@ -177,14 +177,14 @@ function Cryptoservices() {
               recovery, investment strategies, transaction support, or security
               enhancements, we have you covered.
             </p>
-            <p className="text-gray-500 sm:text-xl dark:text-gray-400">
+            <p className="text-gray-500 sm:text-xl ">
               Discover the power of our tailored services designed to optimize
               your crypto experience. Explore the specific services listed
               below, each backed by our expertise and dedication to providing
               seamless solutions for the challenges you may encounter in the
               dynamic world of digital assets.
             </p>
-            <p className="text-gray-500 sm:text-xl dark:text-gray-400">
+            <p className="text-gray-500 sm:text-xl ">
               Ready to elevate your crypto journey? Dive into our specialized
               services and empower yourself with the knowledge and support
               needed to navigate the complexities of the crypto space
@@ -208,9 +208,9 @@ function Cryptoservices() {
           </div>
           <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0 reveal fade-bottom">
             <div>
-              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 dark:bg-primary-900">
+              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 ">
                 <svg
-                  className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 dark:text-primary-300"
+                  className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 "
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -222,18 +222,18 @@ function Cryptoservices() {
                   ></path>
                 </svg>
               </div>
-              <h3 className="mb-2 text-xl font-bold dark:text-white">
+              <h3 className="mb-2 text-xl font-bold ">
                 Crypto Asset Consultation
               </h3>
-              <p className="text-gray-500 dark:text-gray-400">
+              <p className="text-gray-500 ">
                 Guiding you through the process of recovering lost crypto
                 assets. Expert advice tailored to your unique situation.
               </p>
             </div>
             <div>
-              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 dark:bg-primary-900">
+              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 ">
                 <svg
-                  className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 dark:text-primary-300"
+                  className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 "
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -241,19 +241,19 @@ function Cryptoservices() {
                   <FaBalanceScale />
                 </svg>
               </div>
-              <h3 className="mb-2 text-xl font-bold dark:text-white">
+              <h3 className="mb-2 text-xl font-bold ">
                 Blockchain Legal Expertise
               </h3>
-              <p className="text-gray-500 dark:text-gray-400">
+              <p className="text-gray-500 ">
                 Legal support to navigate the complexities of blockchain
                 transactions. Ensuring compliance and protection for your crypto
                 holdings.
               </p>
             </div>
             <div>
-              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 dark:bg-primary-900">
+              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 ">
                 <svg
-                  className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 dark:text-primary-300"
+                  className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 "
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -266,18 +266,18 @@ function Cryptoservices() {
                   <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z"></path>
                 </svg>
               </div>
-              <h3 className="mb-2 text-xl font-bold dark:text-white">
+              <h3 className="mb-2 text-xl font-bold ">
                 Decentralized Security Solutions
               </h3>
-              <p className="text-gray-500 dark:text-gray-400">
+              <p className="text-gray-500 ">
                 Implementing cutting-edge security measures for decentralized
                 assets. Safeguarding your crypto holdings from potential threats
               </p>
             </div>
             <div>
-              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 dark:bg-primary-900">
+              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 ">
                 <svg
-                  className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 dark:text-primary-300"
+                  className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 "
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -286,19 +286,17 @@ function Cryptoservices() {
                   <FaShieldAlt />
                 </svg>
               </div>
-              <h3 className="mb-2 text-xl font-bold dark:text-white">
-                Smart Contract Audits
-              </h3>
-              <p className="text-gray-500 dark:text-gray-400">
+              <h3 className="mb-2 text-xl font-bold ">Smart Contract Audits</h3>
+              <p className="text-gray-500 ">
                 Thorough examination of smart contracts to identify
                 vulnerabilities. Enhancing the security of your crypto
                 investments.
               </p>
             </div>
             <div>
-              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 dark:bg-primary-900">
+              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 ">
                 <svg
-                  className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 dark:text-primary-300"
+                  className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 "
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -306,18 +304,18 @@ function Cryptoservices() {
                   <GiMagnifyingGlass />
                 </svg>
               </div>
-              <h3 className="mb-2 text-xl font-bold dark:text-white">
+              <h3 className="mb-2 text-xl font-bold ">
                 Risk Management and Recovery
               </h3>
-              <p className="text-gray-500 dark:text-gray-400">
+              <p className="text-gray-500 ">
                 Strategic risk assessment to prevent future losses. Proactive
                 recovery solutions for lost crypto assets.
               </p>
             </div>
             <div>
-              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 dark:bg-primary-900">
+              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 ">
                 <svg
-                  className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 dark:text-primary-300"
+                  className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 "
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -329,10 +327,10 @@ function Cryptoservices() {
                   ></path>
                 </svg>
               </div>
-              <h3 className="mb-2 text-xl font-bold dark:text-white">
+              <h3 className="mb-2 text-xl font-bold ">
                 Cybersecurity for Crypto
               </h3>
-              <p className="text-gray-500 dark:text-gray-400">
+              <p className="text-gray-500 ">
                 Robust cybersecurity protocols tailored to the crypto industry.
                 Protecting your digital assets from online threats
               </p>
@@ -340,9 +338,9 @@ function Cryptoservices() {
             {servicesData.map((service) => {
               return (
                 <div key={service.heading} className="reveal fade-bottom">
-                  <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 dark:bg-primary-900 ">
+                  <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12  ">
                     <svg
-                      className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 dark:text-primary-300 items-center flex bg-red"
+                      className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6  items-center flex bg-red"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                       xmlns="http://www.w3.org/2000/svg"
@@ -350,12 +348,8 @@ function Cryptoservices() {
                       {service.icon}
                     </svg>
                   </div>
-                  <h3 className="mb-2 text-xl font-bold dark:text-white">
-                    {service.heading}
-                  </h3>
-                  <p className="text-gray-500 dark:text-gray-400">
-                    {service.paragraph}
-                  </p>
+                  <h3 className="mb-2 text-xl font-bold ">{service.heading}</h3>
+                  <p className="text-gray-500 ">{service.paragraph}</p>
                 </div>
               );
             })}

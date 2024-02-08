@@ -18,23 +18,33 @@ const Home = () => {
   return (
     <Container>
       <RevealSection>
-        <section className="  bg-white dark:bg-gray-900">
+        <section
+          className="  bg-white 
+        "
+        >
           <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 reveal fade-right">
-            <div className="mr-auto place-self-center lg:col-span-7">
+            <div className=" z-auto mr-auto place-self-center lg:col-span-7">
               <p className="text-sm text-[#FD8D1E]">
                 Join the our crypto exchange
               </p>
-              <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+              <h1
+                className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl 
+              "
+              >
                 Crypto Asset Recovery and Investment Services.
               </h1>
-              <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+              <p
+                className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl 
+              "
+              >
                 CyberBlog: Your Go-To for Swift Crypto Asset Recovery. Reclaim
                 and secure your lost cryptocurrencies with our efficient and
                 reliable services.
               </p>
               <a
                 href="#"
-                className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-teal-700 bg-blue-600 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+                className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-teal-700 bg-blue-600 focus:ring-4 focus:ring-primary-300 
+                "
               >
                 Get started
                 <svg
@@ -52,7 +62,8 @@ const Home = () => {
               </a>
               <a
                 href="#"
-                className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+                className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 
+                "
               >
                 Send us a message
               </a>
@@ -67,21 +78,31 @@ const Home = () => {
       <RevealSection>
         <section
           id="about"
-          className=" reveal py-10 lg:py-20 bg-stone-100 font-poppins dark:bg-gray-800"
+          className=" reveal py-10 lg:py-20 bg-stone-100 font-poppins 
+          "
         >
           <div className="max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
             <div className="flex flex-wrap ">
               <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0 ">
                 <div className="lg:max-w-md">
                   <div className="px-4 pl-4 mb-6 border-l-4 border-teal-500">
-                    <span className="text-sm text-gray-600 uppercase dark:text-gray-400">
+                    <span
+                      className="text-sm text-gray-600 uppercase 
+                    "
+                    >
                       Who we are?
                     </span>
-                    <h1 className="mt-2 text-3xl font-black text-gray-700 md:text-5xl dark:text-gray-300">
+                    <h1
+                      className="mt-2 text-3xl font-black text-gray-700 md:text-5xl 
+                    "
+                    >
                       About Us
                     </h1>
                   </div>
-                  <p className="px-4 mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
+                  <p
+                    className="px-4 mb-10 text-base leading-7 text-gray-500 
+                  "
+                  >
                     We are a dedicated Crypto Asset Recovery Agency, committed
                     to providing unparalleled services. Our team of experts is
                     driven by a mission to assist clients in the recovery of
@@ -92,8 +113,14 @@ const Home = () => {
                   </p>
                   <div className="flex flex-wrap items-center">
                     <div className="w-full px-4 mb-6 sm:w-1/2 md:w-1/2 lg:mb-6">
-                      <div className="p-6 bg-white dark:bg-gray-900">
-                        <span className="text-teal-500 dark:text-blue-400">
+                      <div
+                        className="p-6 bg-white 
+                      "
+                      >
+                        <span
+                          className="text-teal-500 
+                        "
+                        >
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="16"
@@ -106,17 +133,29 @@ const Home = () => {
                             <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z" />
                           </svg>
                         </span>
-                        <p className="mt-4 mb-2 text-3xl font-bold text-gray-700 dark:text-gray-400">
+                        <p
+                          className="mt-4 mb-2 text-3xl font-bold text-gray-700 
+                        "
+                        >
                           $20,000+
                         </p>
-                        <h2 className="text-sm text-gray-700 dark:text-gray-400">
+                        <h2
+                          className="text-sm text-gray-700 
+                        "
+                        >
                           Assests recovered
                         </h2>
                       </div>
                     </div>
                     <div className="w-full px-4 mb-6 sm:w-1/2 md:w-1/2 lg:mb-6">
-                      <div className="p-6 bg-white dark:bg-gray-900">
-                        <span className="text-teal-500 dark:text-blue-400">
+                      <div
+                        className="p-6 bg-white 
+                      "
+                      >
+                        <span
+                          className="text-teal-500 
+                        "
+                        >
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="16"
@@ -133,17 +172,29 @@ const Home = () => {
                             <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
                           </svg>
                         </span>
-                        <p className="mt-4 mb-2 text-3xl font-bold text-gray-700 dark:text-gray-400">
+                        <p
+                          className="mt-4 mb-2 text-3xl font-bold text-gray-700 
+                        "
+                        >
                           120+
                         </p>
-                        <h2 className="text-sm text-gray-700 dark:text-gray-400">
+                        <h2
+                          className="text-sm text-gray-700 
+                        "
+                        >
                           Assisted client
                         </h2>
                       </div>
                     </div>
                     <div className="w-full px-4 mb-6 sm:w-1/2 md:w-1/2 lg:mb-6">
-                      <div className="p-6 bg-white dark:bg-gray-900">
-                        <span className="text-teal-500 dark:text-blue-400">
+                      <div
+                        className="p-6 bg-white 
+                      "
+                      >
+                        <span
+                          className="text-teal-500 
+                        "
+                        >
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="16"
@@ -155,17 +206,29 @@ const Home = () => {
                             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
                           </svg>
                         </span>
-                        <p className="mt-4 mb-2 text-3xl font-bold text-gray-700 dark:text-gray-400">
+                        <p
+                          className="mt-4 mb-2 text-3xl font-bold text-gray-700 
+                        "
+                        >
                           74
                         </p>
-                        <h2 className="text-sm text-gray-700 dark:text-gray-400">
+                        <h2
+                          className="text-sm text-gray-700 
+                        "
+                        >
                           Operational project
                         </h2>
                       </div>
                     </div>
                     <div className="w-full px-4 mb-6 sm:w-1/2 md:w-1/2 lg:mb-6">
-                      <div className="p-6 bg-white dark:bg-gray-900">
-                        <span className="text-teal-500 dark:text-blue-400">
+                      <div
+                        className="p-6 bg-white 
+                      "
+                      >
+                        <span
+                          className="text-teal-500 
+                        "
+                        >
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="16"
@@ -177,10 +240,16 @@ const Home = () => {
                             <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zm2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.035 8.035 0 0 0 .86 5.387zM11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.035 8.035 0 0 0-3.527-3.527z" />
                           </svg>
                         </span>
-                        <p className="mt-4 mb-2 text-3xl font-bold text-gray-700 dark:text-gray-400">
+                        <p
+                          className="mt-4 mb-2 text-3xl font-bold text-gray-700 
+                        "
+                        >
                           100%
                         </p>
-                        <h2 className="text-sm text-gray-700 dark:text-gray-400">
+                        <h2
+                          className="text-sm text-gray-700 
+                        "
+                        >
                           Success rate
                         </h2>
                       </div>
@@ -207,11 +276,17 @@ const Home = () => {
               <div className="max-w-[700px] text-center">
                 <h2 className="mb-6 text-center text-3xl font-bold ">
                   Why choose our{" "}
-                  <u className="text-[#FD8D1E] dark:text-primary-400">
+                  <u
+                    className="text-[#FD8D1E] 
+                  "
+                  >
                     Crypto Recovery Services?
                   </u>
                 </h2>
-                <p className="mb-16 text-neutral-500 dark:text-neutral-300">
+                <p
+                  className="mb-16 text-neutral-500 
+                "
+                >
                   Safeguarding your digital assets is our top priority. Explore
                   the unique features of our Crypto Recovery Services below.
                 </p>
@@ -239,7 +314,10 @@ const Home = () => {
                 <h5 className="mb-4 text-lg font-bold">
                   Secure Asset Recovery
                 </h5>
-                <p className="text-neutral-500 dark:text-neutral-300">
+                <p
+                  className="text-neutral-500 
+                "
+                >
                   Our expert team ensures the secure recovery of your lost or
                   inaccessible crypto assets, providing peace of mind and timely
                   assistance.
@@ -264,7 +342,10 @@ const Home = () => {
                   </svg>
                 </div>
                 <h5 className="mb-4 text-lg font-bold">Bulletproof Security</h5>
-                <p className="text-neutral-500 dark:text-neutral-300">
+                <p
+                  className="text-neutral-500 
+                "
+                >
                   Benefit from our state-of-the-art security protocols, ensuring
                   the safety and integrity of your crypto assets throughout the
                   recovery process.
@@ -291,7 +372,10 @@ const Home = () => {
                 <h5 className="mb-4 text-lg font-bold">
                   Swift Recovery Process
                 </h5>
-                <p className="text-neutral-500 dark:text-neutral-300">
+                <p
+                  className="text-neutral-500 
+                "
+                >
                   Experience an exceptionally fast recovery process, minimizing
                   downtime and allowing you to regain access to your crypto
                   assets promptly.
@@ -321,7 +405,10 @@ const Home = () => {
                   </svg>
                 </div>
                 <h5 className="mb-4 text-lg font-bold">Real-time Analytics</h5>
-                <p className="text-neutral-500 dark:text-neutral-300">
+                <p
+                  className="text-neutral-500 
+                "
+                >
                   Gain insights into the recovery process with live analytics,
                   keeping you informed and updated every step of the way.
                 </p>
@@ -442,7 +529,10 @@ const Home = () => {
         </section>
       </RevealSection>
 
-      <section className="bg-white dark:bg-gray-900 my-5">
+      <section
+        className="bg-white 
+       my-5"
+      >
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="lg:mt-0 lg:col-span-5 lg:flex mt-6">
             <img src={globe} alt="globe" />
@@ -451,10 +541,16 @@ const Home = () => {
             <p className="text-sm text-[#FD8D1E]">
               Your Trusted Partner in Crypto Recovery
             </p>
-            <h2 className="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl dark:text-white">
+            <h2
+              className="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl 
+            "
+            >
               Recover Your Lost Crypto Assets
             </h2>
-            <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+            <p
+              className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl 
+            "
+            >
               Whether it&apos;s a case of compromised security, fraudulent
               activities, or misplaced credentials, our experienced team
               specializes in recovering your lost crypto assets. We understand
@@ -463,7 +559,8 @@ const Home = () => {
             </p>
             <Link
               to="/contact"
-              className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-teal-700 bg-blue-600 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+              className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-teal-700 bg-blue-600 focus:ring-4 focus:ring-primary-300 
+              "
             >
               Contact Us
             </Link>
@@ -471,13 +568,23 @@ const Home = () => {
         </div>
       </section>
       <RevealSection>
-        <section className="bg-white dark:bg-gray-900" id="service">
+        <section
+          className="bg-white 
+        "
+          id="service"
+        >
           <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
             <div className="max-w-screen-md mb-8 lg:mb-16 reveal">
-              <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+              <h2
+                className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 
+              "
+              >
                 We make crypto recovery easy and seemless.
               </h2>
-              <p className="text-gray-500 sm:text-xl dark:text-gray-400">
+              <p
+                className="text-gray-500 sm:text-xl 
+              "
+              >
                 Our dedicated team at CyberBlog specializes in providing
                 seamless solutions for the recovery of lost cryptocurrencies. We
                 understand the challenges you face in the ever-evolving world of
@@ -495,9 +602,13 @@ const Home = () => {
             </div>
             <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0 reveal fade-bottom">
               <div>
-                <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 dark:bg-primary-900">
+                <div
+                  className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 
+                "
+                >
                   <svg
-                    className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 dark:text-primary-300"
+                    className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 
+                    "
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -509,18 +620,28 @@ const Home = () => {
                     ></path>
                   </svg>
                 </div>
-                <h3 className="mb-2 text-xl font-bold dark:text-white">
+                <h3
+                  className="mb-2 text-xl font-bold 
+                "
+                >
                   Crypto Asset Consultation
                 </h3>
-                <p className="text-gray-500 dark:text-gray-400">
+                <p
+                  className="text-gray-500 
+                "
+                >
                   Guiding you through the process of recovering lost crypto
                   assets. Expert advice tailored to your unique situation.
                 </p>
               </div>
               <div>
-                <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 dark:bg-primary-900">
+                <div
+                  className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 
+                "
+                >
                   <svg
-                    className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 dark:text-primary-300"
+                    className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 
+                    "
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -528,19 +649,29 @@ const Home = () => {
                     <FaBalanceScale />
                   </svg>
                 </div>
-                <h3 className="mb-2 text-xl font-bold dark:text-white">
+                <h3
+                  className="mb-2 text-xl font-bold 
+                "
+                >
                   Blockchain Legal Expertise
                 </h3>
-                <p className="text-gray-500 dark:text-gray-400">
+                <p
+                  className="text-gray-500 
+                "
+                >
                   Legal support to navigate the complexities of blockchain
                   transactions. Ensuring compliance and protection for your
                   crypto holdings.
                 </p>
               </div>
               <div>
-                <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 dark:bg-primary-900">
+                <div
+                  className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 
+                "
+                >
                   <svg
-                    className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 dark:text-primary-300"
+                    className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 
+                    "
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -553,19 +684,29 @@ const Home = () => {
                     <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z"></path>
                   </svg>
                 </div>
-                <h3 className="mb-2 text-xl font-bold dark:text-white">
+                <h3
+                  className="mb-2 text-xl font-bold 
+                "
+                >
                   Decentralized Security Solutions
                 </h3>
-                <p className="text-gray-500 dark:text-gray-400">
+                <p
+                  className="text-gray-500 
+                "
+                >
                   Implementing cutting-edge security measures for decentralized
                   assets. Safeguarding your crypto holdings from potential
                   threats
                 </p>
               </div>
               <div>
-                <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 dark:bg-primary-900">
+                <div
+                  className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 
+                "
+                >
                   <svg
-                    className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 dark:text-primary-300"
+                    className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 
+                    "
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -574,19 +715,29 @@ const Home = () => {
                     <FaShieldAlt />
                   </svg>
                 </div>
-                <h3 className="mb-2 text-xl font-bold dark:text-white">
+                <h3
+                  className="mb-2 text-xl font-bold 
+                "
+                >
                   Smart Contract Audits
                 </h3>
-                <p className="text-gray-500 dark:text-gray-400">
+                <p
+                  className="text-gray-500 
+                "
+                >
                   Thorough examination of smart contracts to identify
                   vulnerabilities. Enhancing the security of your crypto
                   investments.
                 </p>
               </div>
               <div>
-                <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 dark:bg-primary-900">
+                <div
+                  className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 
+                "
+                >
                   <svg
-                    className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 dark:text-primary-300"
+                    className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 
+                    "
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -594,18 +745,28 @@ const Home = () => {
                     <GiMagnifyingGlass />
                   </svg>
                 </div>
-                <h3 className="mb-2 text-xl font-bold dark:text-white">
+                <h3
+                  className="mb-2 text-xl font-bold 
+                "
+                >
                   Risk Management and Recovery
                 </h3>
-                <p className="text-gray-500 dark:text-gray-400">
+                <p
+                  className="text-gray-500 
+                "
+                >
                   Strategic risk assessment to prevent future losses. Proactive
                   recovery solutions for lost crypto assets.
                 </p>
               </div>
               <div>
-                <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 dark:bg-primary-900">
+                <div
+                  className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-teal-700 lg:h-12 lg:w-12 
+                "
+                >
                   <svg
-                    className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 dark:text-primary-300"
+                    className="w-5 h-5 text-[#FD8D1E] lg:w-6 lg:h-6 
+                    "
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -617,10 +778,16 @@ const Home = () => {
                     ></path>
                   </svg>
                 </div>
-                <h3 className="mb-2 text-xl font-bold dark:text-white">
+                <h3
+                  className="mb-2 text-xl font-bold 
+                "
+                >
                   Cybersecurity for Crypto
                 </h3>
-                <p className="text-gray-500 dark:text-gray-400">
+                <p
+                  className="text-gray-500 
+                "
+                >
                   Robust cybersecurity protocols tailored to the crypto
                   industry. Protecting your digital assets from online threats
                 </p>
@@ -653,7 +820,10 @@ const Home = () => {
           >
             <SwiperSlide>
               <div className="mb-6 lg:mb-0">
-                <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+                <div
+                  className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] 
+                "
+                >
                   <div className="relative overflow-hidden bg-cover bg-no-repeat">
                     <img
                       src="https://mdbcdn.b-cdn.net/img/new/avatars/6.jpg"
@@ -663,7 +833,8 @@ const Home = () => {
                       <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"></div>
                     </a>
                     <svg
-                      className="absolute left-0 bottom-0 text-white dark:text-neutral-700"
+                      className="absolute left-0 bottom-0 text-white 
+                      "
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 1440 320"
                     >
@@ -675,7 +846,10 @@ const Home = () => {
                   </div>
                   <div className="p-6">
                     <h5 className="mb-2 text-lg font-bold">Halley Frank</h5>
-                    <h6 className="mb-4 font-medium text-primary dark:text-primary-400">
+                    <h6
+                      className="mb-4 font-medium text-primary 
+                    "
+                    >
                       Marketing Specialist
                     </h6>
                     <ul className="mb-6 flex justify-center">
@@ -751,7 +925,10 @@ const Home = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="mb-6 lg:mb-0">
-                <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+                <div
+                  className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] 
+                "
+                >
                   <div className="relative overflow-hidden bg-cover bg-no-repeat">
                     <img
                       src="https://mdbcdn.b-cdn.net/img/new/avatars/6.jpg"
@@ -761,7 +938,8 @@ const Home = () => {
                       <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"></div>
                     </a>
                     <svg
-                      className="absolute left-0 bottom-0 text-white dark:text-neutral-700"
+                      className="absolute left-0 bottom-0 text-white 
+                      "
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 1440 320"
                     >
@@ -773,7 +951,10 @@ const Home = () => {
                   </div>
                   <div className="p-6">
                     <h5 className="mb-2 text-lg font-bold">Halley Frank</h5>
-                    <h6 className="mb-4 font-medium text-primary dark:text-primary-400">
+                    <h6
+                      className="mb-4 font-medium text-primary 
+                    "
+                    >
                       Marketing Specialist
                     </h6>
                     <ul className="mb-6 flex justify-center">
@@ -849,7 +1030,10 @@ const Home = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="mb-6 lg:mb-0">
-                <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+                <div
+                  className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] 
+                "
+                >
                   <div className="relative overflow-hidden bg-cover bg-no-repeat">
                     <img
                       src="https://mdbcdn.b-cdn.net/img/new/avatars/8.jpg"
@@ -859,7 +1043,8 @@ const Home = () => {
                       <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"></div>
                     </a>
                     <svg
-                      className="absolute left-0 bottom-0 text-white dark:text-neutral-700"
+                      className="absolute left-0 bottom-0 text-white 
+                      "
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 1440 320"
                     >
@@ -871,7 +1056,10 @@ const Home = () => {
                   </div>
                   <div className="p-6">
                     <h5 className="mb-2 text-lg font-bold">John Doe</h5>
-                    <h6 className="mb-4 font-medium text-primary dark:text-primary-400">
+                    <h6
+                      className="mb-4 font-medium text-primary 
+                    "
+                    >
                       Web Developer
                     </h6>
                     <ul className="mb-6 flex justify-center">
@@ -947,7 +1135,10 @@ const Home = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="mb-6 lg:mb-0">
-                <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+                <div
+                  className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] 
+                "
+                >
                   <div className="relative overflow-hidden bg-cover bg-no-repeat">
                     <img
                       src="https://mdbcdn.b-cdn.net/img/new/avatars/8.jpg"
@@ -957,7 +1148,8 @@ const Home = () => {
                       <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"></div>
                     </a>
                     <svg
-                      className="absolute left-0 bottom-0 text-white dark:text-neutral-700"
+                      className="absolute left-0 bottom-0 text-white 
+                      "
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 1440 320"
                     >
@@ -969,7 +1161,10 @@ const Home = () => {
                   </div>
                   <div className="p-6">
                     <h5 className="mb-2 text-lg font-bold">John Doe</h5>
-                    <h6 className="mb-4 font-medium text-primary dark:text-primary-400">
+                    <h6
+                      className="mb-4 font-medium text-primary 
+                    "
+                    >
                       Web Developer
                     </h6>
                     <ul className="mb-6 flex justify-center">
@@ -1045,7 +1240,10 @@ const Home = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="">
-                <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+                <div
+                  className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] 
+                "
+                >
                   <div className="relative overflow-hidden bg-cover bg-no-repeat">
                     <img
                       src="https://mdbcdn.b-cdn.net/img/new/avatars/15.jpg"
@@ -1055,7 +1253,8 @@ const Home = () => {
                       <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"></div>
                     </a>
                     <svg
-                      className="absolute left-0 bottom-0 text-white dark:text-neutral-700"
+                      className="absolute left-0 bottom-0 text-white 
+                      "
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 1440 320"
                     >
@@ -1067,7 +1266,10 @@ const Home = () => {
                   </div>
                   <div className="p-6">
                     <h5 className="mb-2 text-lg font-bold">Lisa Trey</h5>
-                    <h6 className="mb-4 font-medium text-primary dark:text-primary-400">
+                    <h6
+                      className="mb-4 font-medium text-primary 
+                    "
+                    >
                       Public Relations
                     </h6>
                     <ul className="mb-6 flex justify-center">
