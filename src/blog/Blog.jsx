@@ -11,7 +11,6 @@ const Blog = () => {
         const response = await axios.get(
           "https://gnews.io/api/v4/search?q=crypto&lang=en&country=us&max=10&apikey=614497ccec25dcede986d69abd2fcdbf"
         );
-        console.log(response.data.articles);
         setBlogPosts(response.data.articles);
       } catch (error) {
         console.log(error);
@@ -22,16 +21,29 @@ const Blog = () => {
   }, []);
 
   return (
-    <div className="container newsss">
-      <h2>Cryptocurrency News</h2>
-      <ul>
-        {blogPosts.map((post) => (
-          <NavLink to={post.url} key={post.url}>
-            {post.image && <img src={post.image} alt={post.summary} />}
-            <h3 className="adbs">{post.title}</h3>
-          </NavLink>
-        ))}
-      </ul>
+    <div className="container mx-auto mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <h2 className="text-3xl font-semibold mb-4 col-span-full mx-auto">
+        Cryptocurrency News
+      </h2>
+      {blogPosts.map((post) => (
+        <NavLink
+          to={post.url}
+          key={post.url}
+          className="border rounded-md overflow-hidden hover:shadow-md"
+        >
+          {post.image && (
+            <img
+              src={post.image}
+              alt={post.summary}
+              className="w-full h-40 object-cover"
+            />
+          )}
+          <div className="p-4">
+            <h3 className="text-lg font-semibold mb-2">{post.title}</h3>
+            <p className="text-gray-500">{post.publishedAt}</p>
+          </div>
+        </NavLink>
+      ))}
     </div>
   );
 };

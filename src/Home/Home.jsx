@@ -435,7 +435,7 @@ const Home = () => {
             </div>
             <div>
               <button className="btn btn-md bg-teal-700 p-2 text-white rounded mt-5">
-                Contact us and get started
+                <Link to="/contact">Contact us and get started</Link>
               </button>
             </div>
           </div>
@@ -461,12 +461,12 @@ const Home = () => {
               the complexities of the crypto landscape and are dedicated to
               helping you regain control of what&apos;s rightfully yours
             </p>
-            <a
-              href="#"
+            <Link
+              to="/contact"
               className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-teal-700 bg-blue-600 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
             >
               Contact Us
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -484,7 +484,7 @@ const Home = () => {
                 digital assets, and we&apos;re here to help you navigate the
                 complexities with expertise and efficiency.
               </p>
-              <Link to={"#"} className="text-[#FD8D1E]">
+              <Link to={"/contact"} className="text-[#FD8D1E]">
                 Contact us to know more
               </Link>
             </div>
@@ -625,6 +625,11 @@ const Home = () => {
                   industry. Protecting your digital assets from online threats
                 </p>
               </div>
+            </div>
+            <div>
+              <h3 className="my-3 font-semibold text- text-[#FD8D1E] underline">
+                <Link to="/services">See more of the services we render</Link>
+              </h3>
             </div>
           </div>
         </section>
