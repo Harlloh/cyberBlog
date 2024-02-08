@@ -826,7 +826,7 @@ const Home = () => {
                 >
                   <div className="relative overflow-hidden bg-cover bg-no-repeat">
                     <img
-                      src="https://mdbcdn.b-cdn.net/img/new/avatars/6.jpg"
+                      src="https://images.unsplash.com/photo-1529111290557-82f6d5c6cf85?q=80&w=2586&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       className="w-full rounded-t-lg"
                     />
                     <a href="#!">
@@ -850,7 +850,7 @@ const Home = () => {
                       className="mb-4 font-medium text-primary 
                     "
                     >
-                      Marketing Specialist
+                      IT Consultant
                     </h6>
                     <ul className="mb-6 flex justify-center">
                       <li>
@@ -915,9 +915,10 @@ const Home = () => {
                       </li>
                     </ul>
                     <p>
-                      At vero eos et accusamus et iusto odio dignissimos ducimus
-                      qui blanditiis praesentium accusamus voluptatum deleniti
-                      atque corrupti.
+                      I had lost hope in recovering my crypto assets until I
+                      reached out to Cyberblog. Their expert team guided me
+                      through the entire process with precision, and I
+                      successfully recovered my lost funds. Highly recommended
                     </p>
                   </div>
                 </div>
@@ -931,7 +932,7 @@ const Home = () => {
                 >
                   <div className="relative overflow-hidden bg-cover bg-no-repeat">
                     <img
-                      src="https://mdbcdn.b-cdn.net/img/new/avatars/6.jpg"
+                      src="https://images.unsplash.com/photo-1530268729831-4b0b9e170218?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       className="w-full rounded-t-lg"
                     />
                     <a href="#!">
@@ -955,7 +956,7 @@ const Home = () => {
                       className="mb-4 font-medium text-primary 
                     "
                     >
-                      Marketing Specialist
+                      Attorney
                     </h6>
                     <ul className="mb-6 flex justify-center">
                       <li>
@@ -1020,9 +1021,10 @@ const Home = () => {
                       </li>
                     </ul>
                     <p>
-                      At vero eos et accusamus et iusto odio dignissimos ducimus
-                      qui blanditiis praesentium accusamus voluptatum deleniti
-                      atque corrupti.
+                      Cyberblog&apos;s blockchain legal expertise proved
+                      invaluable for my crypto transactions. They provided legal
+                      support that ensured compliance and protection for my
+                      crypto holdings. Trustworthy and professional!
                     </p>
                   </div>
                 </div>
@@ -1036,7 +1038,7 @@ const Home = () => {
                 >
                   <div className="relative overflow-hidden bg-cover bg-no-repeat">
                     <img
-                      src="https://mdbcdn.b-cdn.net/img/new/avatars/8.jpg"
+                      src="https://images.unsplash.com/photo-1627161684458-a62da52b51c3?q=80&w=2649&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       className="w-full rounded-t-lg"
                     />
                     <a href="#!">
@@ -1125,9 +1127,11 @@ const Home = () => {
                       </li>
                     </ul>
                     <p>
-                      Ut pretium ultricies dignissim. Sed sit amet mi eget urna
-                      placerat vulputate. Ut vulputate est non quam dignissim
-                      elementum. Donec a ullamcorper diam.
+                      The decentralized security solutions offered by Cyberblog
+                      are top-notch. Led by cybersecurity analysts, they
+                      implemented cutting-edge measures to safeguard my
+                      decentralized assets, protecting them from potential
+                      threats. I feel secure and confident in their hands.
                     </p>
                   </div>
                 </div>
@@ -1141,7 +1145,7 @@ const Home = () => {
                 >
                   <div className="relative overflow-hidden bg-cover bg-no-repeat">
                     <img
-                      src="https://mdbcdn.b-cdn.net/img/new/avatars/8.jpg"
+                      src="https://images.unsplash.com/photo-1609436132311-e4b0c9370469?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       className="w-full rounded-t-lg"
                     />
                     <a href="#!">
@@ -1230,9 +1234,12 @@ const Home = () => {
                       </li>
                     </ul>
                     <p>
-                      Ut pretium ultricies dignissim. Sed sit amet mi eget urna
-                      placerat vulputate. Ut vulputate est non quam dignissim
-                      elementum. Donec a ullamcorper diam.
+                      Smart contract audits by Cyberblog enhanced the security
+                      of my crypto investments. Their team, including skilled
+                      smart contract developers, conducted a thorough
+                      examination, identifying vulnerabilities and providing
+                      proactive solutions. I appreciate their dedication to
+                      ensuring the safety of my assets
                     </p>
                   </div>
                 </div>
@@ -1246,7 +1253,7 @@ const Home = () => {
                 >
                   <div className="relative overflow-hidden bg-cover bg-no-repeat">
                     <img
-                      src="https://mdbcdn.b-cdn.net/img/new/avatars/15.jpg"
+                      src="https://images.unsplash.com/photo-1611432579699-484f7990b127?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       className="w-full rounded-t-lg"
                     />
                     <a href="#!">
@@ -1335,9 +1342,119 @@ const Home = () => {
                       </li>
                     </ul>
                     <p>
-                      Enim ad minima veniam, quis nostrum exercitationem ullam
-                      corporis suscipit laboriosam, nisi ut aliquid commodi quis
-                      nostrum minima.
+                      Cyberblog&apos;s expertise in cybersecurity for crypto is
+                      unparalleled. Their robust protocols, designed by
+                      cybersecurity specialists, tailored to the crypto
+                      industry, have significantly increased the security of my
+                      digital assets. I trust them to keep my investments safe
+                      from online threats.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="">
+                <div
+                  className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] 
+                "
+                >
+                  <div className="relative overflow-hidden bg-cover bg-no-repeat">
+                    <img
+                      src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2680&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      className="w-full rounded-t-lg"
+                    />
+                    <a href="#!">
+                      <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"></div>
+                    </a>
+                    <svg
+                      className="absolute left-0 bottom-0 text-white 
+                      "
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 1440 320"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M0,288L48,256C96,224,192,160,288,160C384,160,480,224,576,213.3C672,203,768,117,864,85.3C960,53,1056,75,1152,69.3C1248,64,1344,32,1392,16L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div className="p-6">
+                    <h5 className="mb-2 text-lg font-bold">Lisa Trey</h5>
+                    <h6
+                      className="mb-4 font-medium text-primary 
+                    "
+                    >
+                      Public Relations
+                    </h6>
+                    <ul className="mb-6 flex justify-center">
+                      <li>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 96 960 960"
+                          className="w-5 text-warning"
+                        >
+                          <path
+                            fill="currentColor"
+                            d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z"
+                          />
+                        </svg>
+                      </li>
+                      <li>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 96 960 960"
+                          className="w-5 text-warning"
+                        >
+                          <path
+                            fill="currentColor"
+                            d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z"
+                          />
+                        </svg>
+                      </li>
+                      <li>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 96 960 960"
+                          className="w-5 text-warning"
+                        >
+                          <path
+                            fill="currentColor"
+                            d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z"
+                          />
+                        </svg>
+                      </li>
+                      <li>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 96 960 960"
+                          className="w-5 text-warning"
+                        >
+                          <path
+                            fill="currentColor"
+                            d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z"
+                          />
+                        </svg>
+                      </li>
+                      <li>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 96 960 960"
+                          className="w-5 text-warning"
+                        >
+                          <path
+                            fill="currentColor"
+                            d="m323 851 157-94 157 95-42-178 138-120-182-16-71-168-71 167-182 16 138 120-42 178Zm-90 125 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-355Z"
+                          />
+                        </svg>
+                      </li>
+                    </ul>
+                    <p>
+                      The risk management and recovery services at Cyberblog are
+                      strategic and effective. Led by experienced risk
+                      management consultants, their team conducted a thorough
+                      risk assessment, preventing future losses. Their proactive
+                      recovery solutions for lost crypto assets are commendable
                     </p>
                   </div>
                 </div>
