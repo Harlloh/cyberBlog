@@ -41,8 +41,8 @@ const Home = () => {
                 and secure your lost cryptocurrencies with our efficient and
                 reliable services.
               </p>
-              <a
-                href="#"
+              <Link
+                to="/services"
                 className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-teal-700 bg-blue-600 focus:ring-4 focus:ring-primary-300 
                 "
               >
@@ -59,14 +59,13 @@ const Home = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-              </a>
-              <a
-                href="#"
-                className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 
-                "
+              </Link>
+              <Link
+                to="/contact"
+                className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100"
               >
                 Send us a message
-              </a>
+              </Link>
             </div>
             <div className="lg:mt-0 lg:col-span-5 lg:flex mt-6 bg-gradient-to-r from-teal-600 to-teal-700 reveal fade-left">
               <img src={heroimg} alt="hero image" />

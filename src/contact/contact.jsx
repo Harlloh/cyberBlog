@@ -1,24 +1,13 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
-import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import {
-  FaCompass,
-  FaMapMarkedAlt,
-  FaMapMarkerAlt,
-  FaPhoneAlt,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaCompass, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
+import axios from "axios";
 
 function Contact() {
-  const [shouldAnimate, setShouldAnimate] = useState(false);
-
-  useEffect(() => {
-    setShouldAnimate(true);
-  }, []);
-
+  const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     country: "",
@@ -29,52 +18,89 @@ function Contact() {
     complaint: "",
   });
 
-  const initialFormData = {
-    name: "",
-    country: "",
-    occupation: "",
-    phone: "",
-    email: "",
-    amount: "",
-    complaint: "",
-  };
-
-  const handleSubmit = (e) => {
+  // const initialFormData = {
+  //   name: "",
+  //   country: "",
+  //   occupation: "",
+  //   phone: "",
+  //   email: "",
+  //   amount: "",
+  //   complaint: "",
+  // };
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(formData);
-    // fetch('http://localhost:3001/send-email', {
-    //   method: 'POST',
-    //   headers: {
-    //     'Content-Type': "application/json"
-    //   },
-    //   body: JSON.stringify(formData)
-    // })
-    // .then(res => {
-    //         console.log(res)
-    //         if(res.text === 'OK'){
-    //           setFormData(initialFormData);              toast.success('Your message as been sent succefully')
-    //         }
+    setLoading(true);
 
-    //     }).catch((err) => toast.error('Message sent failed'));
-
-    // emailjs
-    //   .sendForm(
-    //     "service_2k5lg8r",
-    //     // 'service_stxwd6g',
-    //     "template_oiqws3p",
-    //     // 'template_xewlvcq',
-    //     e.target,
-    //     "jg5LzRpGZ8fm9abb7"
-    //   )
-    //   .then((res) => {
-    //     console.log(res);
-    //     if (res.text === "OK") {
-    //       setFormData(initialFormData);
-    //       toast.success("Your message as been sent succefully");
-    //     }
-    //   })
-    //   .catch(() => toast.error("Message sent failed"));
+    try {
+      const res = await axios.post(
+        "https://cyber-blog-backend.onrender.com",
+        formData
+      );
+      console.log(res);
+      if (res.status === 200) {
+        // Assuming the server returns a status of 200 for success
+        const result = res.data;
+        toast.success(result.status);
+        console.log(result);
+        setFormData({
+          name: "",
+          country: "",
+          occupation: "",
+          phone: "", // Changed to string
+          email: "",
+          amount: "",
+          complaint: "",
+        });
+      } else {
+        // Handle non-success status codes
+        toast.error("Failed to submit the form. Please try again.");
+      }
+    } catch (error) {
+      console.error(error);
+      toast.error(
+        "An error occurred while submitting the form. Please try again."
+      );
+    } finally {
+      setLoading(false);
+    }
   };
+
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   console.log(formData);
+  //   // fetch('http://localhost:3001/send-email', {
+  //   //   method: 'POST',
+  //   //   headers: {
+  //   //     'Content-Type': "application/json"
+  //   //   },
+  //   //   body: JSON.stringify(formData)
+  //   // })
+  //   // .then(res => {
+  //   //         console.log(res)
+  //   //         if(res.text === 'OK'){
+  //   //           setFormData(initialFormData);              toast.success('Your message as been sent succefully')
+  //   //         }
+
+  //   //     }).catch((err) => toast.error('Message sent failed'));
+
+  //   // emailjs
+  //   //   .sendForm(
+  //   //     "service_2k5lg8r",
+  //   //     // 'service_stxwd6g',
+  //   //     "template_oiqws3p",
+  //   //     // 'template_xewlvcq',
+  //   //     e.target,
+  //   //     "jg5LzRpGZ8fm9abb7"
+  //   //   )
+  //   //   .then((res) => {
+  //   //     console.log(res);
+  //   //     if (res.text === "OK") {
+  //   //       setFormData(initialFormData);
+  //   //       toast.success("Your message as been sent succefully");
+  //   //     }
+  //   //   })
+  //   //   .catch(() => toast.error("Message sent failed"));
+  // };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -86,103 +112,6 @@ function Contact() {
 
   return (
     <div>
-      {/* <div className="container contactcont flex flex-col items-center gap-3 bg-blue-300">
-        <h1
-          className={`contactconthead ${
-            shouldAnimate ? "animate" : ""
-          } text-2xl`}
-        >
-          Complete this form to file a complaint
-        </h1>
-        <form
-          onSubmit={handleSubmit}
-          method="POST"
-          action="/send"
-          className="flex flex-col gap-3 items-center bg-red-500 w-full"
-        >
-          <div className="inputcontainer">
-            <input
-              type="text"
-              name="name"
-              placeholder="Full Name"
-              className="form-control rounded p-2 w-full"
-              value={formData.name}
-              onChange={handleChange}
-            />
-          </div>
-
-          <div className="inputcontainer">
-            <input
-              type="text"
-              placeholder="Country of Residence"
-              name="country"
-              value={formData.country}
-              onChange={handleChange}
-            />
-          </div>
-
-          <div className="inputcontainer">
-            <input
-              type="text"
-              placeholder="Occupation"
-              name="occupation"
-              value={formData.occupation}
-              onChange={handleChange}
-            />
-          </div>
-
-          <div className="inputcontainer">
-            <PhoneInput
-              name="phone"
-              placeholder="Enter phone number"
-              value={formData.phone}
-              defaultCountry="US"
-              onChange={(value) =>
-                setFormData((prevData) => ({
-                  ...prevData,
-                  phone: value, // Update the phone field with the new value
-                }))
-              }
-              international
-              countryCallingCodeEditable={true}
-            />
-          </div>
-          <div className="inputcontainer">
-            <input
-              type="email"
-              name="email"
-              placeholder="Email Address"
-              value={formData.email}
-              onChange={handleChange}
-            />
-          </div>
-
-          <div className="inputcontainer">
-            <input
-              type="number"
-              placeholder="Amount"
-              name="amount"
-              value={formData.amount}
-              onChange={handleChange}
-            />
-          </div>
-
-          <div className="inputcontainer">
-            <textarea
-              name="complaint"
-              id="complaint"
-              cols="30"
-              rows="10"
-              placeholder="Complaint/Message"
-              value={formData.complaint}
-              onChange={handleChange}
-            />
-          </div>
-
-          <button type="submit">Send Complaint</button>
-        </form>
-      </div> */}
-
       <div className="container my-12 mx-auto px-2 md:px-4">
         <section className="mb-32">
           <div className="flex justify-center">
@@ -207,6 +136,7 @@ function Contact() {
                   Name
                 </label>
                 <input
+                required
                   type="text"
                   name="name"
                   placeholder="Full Name"
@@ -223,6 +153,7 @@ function Contact() {
                   Country of Residence
                 </label>
                 <input
+                required
                   className="form-control rounded p-2 w-full"
                   type="text"
                   placeholder="Country of Residence"
@@ -239,6 +170,7 @@ function Contact() {
                   Occupation
                 </label>
                 <input
+                required
                   className="form-control rounded p-2 w-full"
                   type="text"
                   placeholder="Occupation"
@@ -256,6 +188,7 @@ function Contact() {
                   Email
                 </label>
                 <input
+                required
                   className="form-control rounded p-2 w-full"
                   type="email"
                   name="email"
@@ -294,9 +227,10 @@ function Contact() {
                   className="block font-medium mb-[2px] text-teal-700"
                   htmlFor="amount"
                 >
-                  Amount
+                  Amount <i>USD</i>
                 </label>
                 <input
+                required
                   className="form-control rounded p-2 w-full"
                   type="number"
                   placeholder="Amount"
@@ -329,7 +263,7 @@ function Contact() {
                 type="submit"
                 className="mb-6 inline-block w-full rounded bg-teal-700 px-6 py-2.5 font-medium uppercase leading-normal text-white hover:shadow-md hover:bg-teal-500"
               >
-                Send Message
+                {loading ? "Submitting" : "Submit"}
               </button>
             </form>
 
